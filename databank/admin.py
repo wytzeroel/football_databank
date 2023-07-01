@@ -1,3 +1,26 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import *
+
+admin.site.register(Country)
+admin.site.register(City)
+admin.site.register(League)
+admin.site.register(Club)
+admin.site.register(Player)
+admin.site.register(Season)
+admin.site.register(Stadium)
+admin.site.register(Match)
+admin.site.register(Foot)
+admin.site.register(ClubSeason)
+admin.site.register(Position)
+admin.site.register(PlayerPosition)
+admin.site.register(PlayerNations)
+admin.site.register(Transfer)
+admin.site.register(Formation)
+admin.site.register(FormationPosition)
+admin.site.register(MatchBenched)
+admin.site.register(MatchLineup)
+admin.site.register(Assist)
+admin.site.register(Goal)
+admin.site.register(Card)
+admin.site.register(Substitution)
